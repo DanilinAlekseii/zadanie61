@@ -1,8 +1,9 @@
-def hello():
-    print("Hello, World!")
+def my_function(  x,y ):
+  print(   "test" )
+  return x+y
 
 
-
-
-if __name__ == "__main__":
-    hello()
+x=1
+y=2
+ result=my_function(x ,y )
+print( result )
